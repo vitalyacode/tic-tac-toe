@@ -5,13 +5,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cell {
-    border: 1px solid black;
+input, textarea {
+    border: none;
+    border-bottom: 2px solid rgb(179, 179, 179);
     box-sizing: border-box;
+    text-align: center;
+    display: block;
+    overflow: none;
+    outline: none;
+    font-size: 30px;
+}
+
+.cell {
+    outline: 1px solid  black;
     width: 100px;
     height: 100px;
-    display: inline;
     float: left;
+    background-color: white;
 }
 
 .cell-content {
@@ -38,4 +48,24 @@
     position: absolute;
     opacity: 0;
     transition: 1s;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#winner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#player1-name {
+    margin-left: 10%;
+    float: left;
+}
+
+#player2-name {
+    float: right;
+    margin-right: 10%;
 }
