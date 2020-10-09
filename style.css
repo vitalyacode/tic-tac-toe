@@ -11,9 +11,10 @@ input, textarea {
     box-sizing: border-box;
     text-align: center;
     display: block;
-    overflow: none;
     outline: none;
     font-size: 30px;
+    width: 18%;
+    margin-top: 100px;
 }
 
 .cell {
@@ -61,11 +62,11 @@ input, textarea {
 }
 
 #player1-name {
-    margin-left: 10%;
+    margin-left: 7%;
     float: left;
 }
 
 #player2-name {
     float: right;
-    margin-right: 10%;
+    margin-right: 7%;
 }
